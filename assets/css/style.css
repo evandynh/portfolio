@@ -1288,8 +1288,12 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
   left: 0;
 }
 
-.portfolio .item > .project-wrapper:hover > .project-link > a.external-link {
+.portfolio .item > .project-wrapper:hover > .project-link > a.external-link-left {
   left: 40px;
+}
+
+.portfolio .item > .project-wrapper:hover > .project-link > a.external-link-right {
+  right: 40px;
 }
 
 .portfolio .item > .project-wrapper:hover > .project-title > h4 {
@@ -1327,9 +1331,14 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
   background-color: #2e2e2e;
 }
 
-.portfolio .item > .project-wrapper > .project-link > a.external-link {
+.portfolio .item > .project-wrapper > .project-link > a.external-link-left {
   left: 0;
-  background-color: #c80a48;
+  background-color: #006ca3;
+}
+
+.portfolio .item > .project-wrapper > .project-link > a.external-link-right {
+  right: 0;
+  background-color: #2e2e2e;
 }
 
 .portfolio .item > .project-wrapper > .project-title > h4 {
