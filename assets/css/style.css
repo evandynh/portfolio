@@ -1296,6 +1296,10 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
   right: 40px;
 }
 
+.portfolio .item > .project-wrapper:hover > .project-link > a.external-link-center {
+  left: 18px;
+}
+
 .portfolio .item > .project-wrapper:hover > .project-title > h4 {
   margin-top: 0px;
   opacity: 1;
@@ -1341,6 +1345,10 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
   background-color: #2e2e2e;
 }
 
+.portfolio .item > .project-wrapper > .project-link > a.external-link-center {
+  background-color: #2e2e2e;
+}
+
 .portfolio .item > .project-wrapper > .project-title > h4 {
   display: block;
   position: absolute;
@@ -1367,6 +1375,10 @@ header.hero.owl-bg-carousel-yes .owl-theme .owl-controls .owl-page.active span {
   .filterable-portfolio-nav a {
     margin-bottom: 15px;
   }
+}
+
+.center {
+      margin-left: 18px;
 }
 
 
